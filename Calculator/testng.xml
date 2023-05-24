@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests">
+    <parameter name="URL" value="https://google.com"/>
+
+    <test verbose="2" preserve-order="true" name="C:/Users/Omar Shedid/IdeaProjects/Calculator/src/test/java/ITI/automation/TestCalculator.java">
+
+    <classes>
+
+        <class name="ITI.automation.TestCalculator">
+            <parameter name="firstInteger" value="5"/>
+            <parameter name="secondInteger" value="6"/>
+            <methods>
+
+            </methods>
+        </class>
+        <class name="ITI.automation.TestCalculatorChrome">
+
+            <methods>
+
+            </methods>
+        </class>
+    </classes>
+</test>
+</suite>
